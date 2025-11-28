@@ -1,1 +1,3 @@
+# 📰 News Classification using Gensim Word Vectors
 
+A Natural Language Processing (NLP) project that classifies news articles as Fake or Real using Gensim Word2Vec embeddings and machine learning models.
