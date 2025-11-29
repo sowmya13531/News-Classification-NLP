@@ -28,18 +28,22 @@ Prediction on New Articles
 
 Install dependencies:
 
-```pip install gensim```
-```python -m spacy download en_core_web_lg```
+```bash
+pip install gensim```
+```bash
+python -m spacy download en_core_web_lg```
 
 ### Load pretrained Google News vectors (~1.6 GB):
 
-```import gensim.downloader as api
+```bash
+import gensim.downloader as api
 wv = api.load('word2vec-google-news-300')```
 
 ### 📑 Dataset
 
 Load the dataset:
-```import pandas as pd
+```bash
+import pandas as pd
 df = pd.read_csv('/content/fake_and_real_news.csv')```
 
 
@@ -56,5 +60,6 @@ df['label_num'] = df.label.map({'Fake': 0, 'Real': 1})
 
 ### Load spaCy model:
 
-```import spacy
+```bash
+import spacy
 nlp = spacy.load('en_core_web_lg')```
