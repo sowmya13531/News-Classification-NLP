@@ -68,3 +68,14 @@ df['label_num'] = df.label.map({'Fake': 0, 'Real': 1})
 import spacy
 nlp = spacy.load('en_core_web_lg')
 ```
+
+## 📁 Clone the Repository
+
+```bash
+git clone https://github.com/sowmya13531/News-Classification-NLP/.git
+cd News-Classification-NLP
+```
+*or*
+
+Simply run the colab Notebook.
+
