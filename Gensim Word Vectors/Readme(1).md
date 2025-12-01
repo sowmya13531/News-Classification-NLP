@@ -72,8 +72,8 @@ nlp = spacy.load('en_core_web_lg')
 ## 📁 Clone the Repository
 
 ```bash
-git clone https://github.com/sowmya13531/News-Classification-NLP/.git
-cd News-Classification-NLP
+git clone https://github.com/sowmya13531/News-Classification-NLP/Gensim-Word-Vectors/.git
+cd News-Classification-NLP/Gensim-Word-Vectors
 ```
 *or*
 
