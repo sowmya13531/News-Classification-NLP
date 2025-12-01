@@ -38,7 +38,15 @@ Balanced dataset → Good for classification.
 
 #### 3. Download and load SpaCy model
 
-```bash python -m spacy download en_core_web_lg
+📦 Installation and Setup
+Install dependencies:
+
+```bash
+pip install spacy
+python -m spacy download en_core_web_lg
+```
+
+```bash import spacy
 nlp = spacy.load('en_core_web_lg')
 ```
 
@@ -95,3 +103,5 @@ en-core-web-lg*
 ```bash 
 pip install -r requirements.txt
 ```
+### Clone the Repository
+```bash
