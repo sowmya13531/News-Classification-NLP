@@ -33,7 +33,8 @@ Example: Accuracy: 92% Precision/Recall: High due to balanced dataset
 
 ### 📦 Requirements
 ```bash
-pip install -requirements.txt
+pip install -r requirements.txt
+```
 
 ### Clone the Repository
 ```bash
