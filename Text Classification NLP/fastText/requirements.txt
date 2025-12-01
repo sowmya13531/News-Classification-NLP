@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+fastText
+numpy<2
+python
