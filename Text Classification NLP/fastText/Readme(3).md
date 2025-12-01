@@ -28,7 +28,22 @@ venv\Scripts\activate     # Windows
 pip install "numpy<2"
 pip install fasttext
 ```
+### 🧪 Results
+Example: Accuracy: 92% Precision/Recall: High due to balanced dataset
 
+### 📦 Requirements
+```bash
+pip install -requirements.txt
+
+### Clone the Repository
+```bash
+git clone https://github.com/sowmya13531/News-Classification-NLP/Text-Classification-NLP/fastText/.git
+cd News-Classification-NLP/Text-Classification-NLP/fastText
+```
+
+or
+
+Simply run the Google Colab Notebook
 
 
 
