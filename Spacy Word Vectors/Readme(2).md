@@ -107,7 +107,7 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/sowmya13531/News-Classification-NLP/.git
 cd News-Classification-NLP
-
+```
 or
 
 Simply run the Google Colab Notebook
